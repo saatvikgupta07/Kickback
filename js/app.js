@@ -181,18 +181,35 @@
   }
 
   /* ---------- team ---------- */
-  function initials(n) {
-    var w = String(n).trim().split(/\s+/);
-    return ((w[0] || '')[0] || '').toUpperCase() + ((w.length > 1 ? w[w.length - 1][0] : '') || '').toUpperCase();
-  }
-  function renderTeam() {
-    var sec = $('#team-sec'), box = $('#team'); clear(box);
-    sec.hidden = !state.team.length;
-    state.team.forEach(function (m) {
-      box.append(h('article', { class: 'member' },
-        h('div', { class: 'ini', 'aria-hidden': 'true' }, initials(m.name)), h('h3', {}, m.name), h('p', { class: 'role' }, m.role)));
-    });
-  }
+  
+function renderTeam() {
+  var sec = $('#team-sec'), box = $('#team');
+  clear(box);
+  sec.hidden = !state.team.length;
+
+  state.team.forEach(function (m) {
+    var card = h('article', { class: 'member' });
+
+    if (m.image) {
+      card.append(
+        h('img', {
+          class: 'member-photo',
+          src: m.image,
+          alt: 'Portrait of ' + m.name,
+          loading: 'lazy'
+        })
+      );
+    }
+
+    card.append(
+      h('h3', {}, m.name),
+      h('p', { class: 'role' }, m.role)
+    );
+
+    box.append(card);
+  });
+}
+
 
   /* ---------- past events and gallery ---------- */
   function renderPast() {
