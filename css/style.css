@@ -118,7 +118,21 @@ textarea{resize:vertical;min-height:84px}
 .side .item p{color:var(--muted);font-size:.95rem}
 .team{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
 .member{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:20px 18px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
-.member .ini{width:54px;height:54px;border-radius:50%;background:var(--gold);color:var(--on-gold);display:flex;align-items:center;justify-content:center;font-family:var(--f-display);font-size:1.4rem;margin-bottom:8px}
+
+.member-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.member {
+  overflow: hidden;
+}
+
 .member h3{font-size:1.4rem}
 .member .role{font-family:var(--f-label);font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-text);font-size:.9rem}
 
