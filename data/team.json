@@ -1,7 +1,28 @@
+
 [
-  { "name": "Kaschith Saraogi", "role": "Founder" },
-  { "name": "Saatvik Gupta", "role": "Co-Founder" },
-  { "name": "Prritish Lalwani", "role": "Co-Founder" },
-  { "name": "Yash Baid", "role": "Co-Founder" },
-  { "name": "Jayesh Agarwal", "role": "Co-Founder" }
+  {
+    "name": "Kaschith Saraogi",
+    "role": "Founder",
+    "image": "images/team/kaschith.jpg"
+  },
+  {
+    "name": "Saatvik Gupta",
+    "role": "Co-Founder",
+    "image": "images/team/saatvik.jpg"
+  },
+  {
+    "name": "Prritish Lalwani",
+    "role": "Co-Founder",
+    "image": "images/team/prritish.jpg"
+  },
+  {
+    "name": "Jayesh Agarwal",
+    "role": "Co-Founder",
+    "image": "images/team/jayesh.jpg"
+  },
+  {
+    "name": "Yash Baid",
+    "role": "Co-Founder",
+    "image": "images/team/yash.jpg"
+  }
 ]
