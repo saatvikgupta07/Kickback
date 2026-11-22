@@ -7,5 +7,5 @@ window.KICKBACK_CONFIG = {
      2. Copy its endpoint, which looks like https://formspree.io/f/abcdwxyz
      3. Paste it between the quotes below.
      Leave it empty and the form falls back to a pre-filled Instagram message. */
-  registrationEndpoint: ""
+  registrationEndpoint: "https://formspree.io/f/xgakpwgq"
 };
