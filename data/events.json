@@ -1,0 +1,28 @@
+{
+  "upcoming": [],
+  "past": [
+    {
+      "key": "pickleball",
+      "title": "Pickle-Bash",
+      "sport": "Pickleball",
+      "lines": [
+        "Pickleball duo event",
+        "Saturday, 8 November 2025, 3:00 PM",
+        "V/S Sports Arena, Kolkata",
+        "Boys, girls and mixed doubles",
+        "Prize money: ₹10,000 for 1st, ₹5,000 for 2nd"
+      ]
+    },
+    {
+      "key": "badminton",
+      "title": "Shuttle Showdown",
+      "sport": "Badminton",
+      "lines": [
+        "Saturday, 6 December 2025",
+        "Spuddy Badminton Academy, Kolkata",
+        "Boys and girls singles, boys doubles, mixed doubles",
+        "Prize money: ₹5,000 for 1st, ₹3,500 for 2nd, ₹1,500 for 3rd"
+      ]
+    }
+  ]
+}

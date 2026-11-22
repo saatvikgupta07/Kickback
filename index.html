@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kickback_.cal</title>
+<meta name="description" content="Kickback_.cal organises competitive sports tournaments in Kolkata. Badminton and pickleball so far. On and off the field.">
+<meta name="theme-color" content="#070707">
+<meta property="og:title" content="Kickback_.cal">
+<meta property="og:description" content="Where passion meets competition. Competitive sports tournaments, run to a professional standard.">
+<meta property="og:image" content="images/banner.png">
+<link rel="icon" href="images/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="court" viewBox="0 0 640 360">
+    <g fill="none" stroke="currentColor" stroke-width="2.5">
+      <rect x="20" y="20" width="600" height="320"/>
+      <line x1="20" y1="44" x2="620" y2="44"/>
+      <line x1="20" y1="316" x2="620" y2="316"/>
+      <line x1="54" y1="20" x2="54" y2="340"/>
+      <line x1="586" y1="20" x2="586" y2="340"/>
+      <line x1="231" y1="20" x2="231" y2="340"/>
+      <line x1="409" y1="20" x2="409" y2="340"/>
+      <line x1="20" y1="180" x2="231" y2="180"/>
+      <line x1="409" y1="180" x2="620" y2="180"/>
+      <line x1="320" y1="6" x2="320" y2="354" stroke-width="4"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home"><img src="images/mark.png" alt="" width="60" height="34">Kickback.cal</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#events" data-nav="events">Events</a>
+      <a href="#gallery" data-nav="gallery">Gallery</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HOME -->
+<section data-view="home">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Where passion meets <em>competition</em></h1>
+        <p class="lead">Kickback_.cal organises competitive sports tournaments, run to a professional standard from registration to the final point.</p>
+        <div class="cta">
+          <a class="btn btn-gold" href="#events">Upcoming events</a>
+          <a class="btn btn-line" href="#about">About us</a>
+        </div>
+      </div>
+      <img class="banner" src="images/banner.png" alt="Kickback.cal: on and off the field" width="651" height="492">
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="facts">
+      <span><b>2</b>sports so far: badminton and pickleball</span>
+    </div>
+
+    <div class="view">
+      <div class="sec">
+        <div class="sec-head"><div><span class="label">Next up</span><h2>Upcoming event</h2></div><a class="btn btn-line btn-sm" href="#events">All events</a></div>
+        <div id="next-up"></div>
+      </div>
+
+      <div class="sec">
+        <div class="sec-head"><div><span class="label">Track record</span><h2>Past events</h2></div><a class="btn btn-line btn-sm" href="#gallery">Open gallery</a></div>
+        <div class="grid3" id="past-grid"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section data-view="about" hidden>
+  <div class="wrap view">
+    <span class="label">About us</span>
+    <h1 class="page-title">Sport, organised properly</h1>
+    <div class="about">
+      <div class="prose">
+        <p>Kickback_.cal brings people together through competitive sport. We design, run and promote tournaments where players get a well-organised event and visitors get a day worth attending.</p>
+        <p>To date we have hosted tournaments in badminton and pickleball. Those are where we started, not where we stop: our events are open to any sport. Each one involved the full operation: planning the format, coordinating the venue and the day, managing prize money and keeping the competition running on schedule.</p>
+        <p>Food and beverage stalls are part of every event. They turn a tournament into an occasion, for the players on court and for everyone watching.</p>
+        <p>We run Kickback_.cal as a self-sustaining operation. Each event is budgeted, resourced and accounted for, so the initiative can fund its own next tournament while keeping the participant experience at the centre.</p>
+        <p>Our approach is simple: take responsibility for the whole event, work as one team and hold every tournament to the same standard.</p>
+        <div class="row"><a class="btn btn-gold" href="#events">See what's next</a><a class="btn btn-line" href="https://www.instagram.com/kickback_.cal/" target="_blank" rel="noopener">@kickback_.cal on Instagram</a></div>
+      </div>
+      <aside class="side" aria-label="What we do">
+        <div class="item"><h3>Tournaments</h3><p>Competitive events in any sport, starting with badminton and pickleball, planned end to end.</p></div>
+        <div class="item"><h3>Event operations</h3><p>Scheduling, venue coordination, prize money and a smooth day for every participant.</p></div>
+        <div class="item"><h3>Food and beverage</h3><p>Stalls at every event, so players and visitors can stay and enjoy it.</p></div>
+        <div class="item"><h3>Financial planning</h3><p>Budgeting and resource allocation so each event supports the next.</p></div>
+      </aside>
+    </div>
+
+    <div class="sec" id="team-sec" hidden>
+      <div class="sec-head"><div><span class="label">The people behind it</span><h2>Our team</h2></div></div>
+      <div class="team" id="team"></div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section data-view="events" hidden>
+  <div class="wrap view">
+    <span class="label">Events</span>
+    <h1 class="page-title">Upcoming events and registration</h1>
+
+    <div class="sec">
+      <div class="sec-head"><h2>Upcoming</h2></div>
+      <div id="upcoming" class="events"></div>
+    </div>
+
+    <div class="sec" id="register-sec">
+      <div class="sec-head"><h2>Register to play</h2></div>
+      <div class="panel" id="reg-panel"></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section data-view="gallery" hidden>
+  <div class="wrap view">
+    <span class="label">Gallery</span>
+    <h1 class="page-title">From the courts</h1>
+    <div class="chips" id="chips" role="group" aria-label="Filter photos by event"></div>
+    <div class="photos" id="photos"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><span class="label">On and off the field</span> &nbsp; Kickback_.cal</span>
+    <a href="https://www.instagram.com/kickback_.cal/" target="_blank" rel="noopener">@kickback_.cal on Instagram</a>
+  </div>
+</footer>
+
+<div id="lb" hidden><img alt=""><p></p></div>
+
+<noscript><p style="padding:24px;color:#fff">Please turn on JavaScript to see this site.</p></noscript>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
