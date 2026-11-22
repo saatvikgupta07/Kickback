@@ -23,4 +23,4 @@ For event updates, enquiries, and announcements, visit our [Instagram page](http
 
 ---
 
-© Kickback_.cal. All rights reserved.
+
